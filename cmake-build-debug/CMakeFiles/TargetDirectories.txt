@@ -1,0 +1,5 @@
+/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles/monitor_barrera_clean.dir
+/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles/monitor_barrera_make.dir
+/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles/monitor_barrera.dir

@@ -1,0 +1,1531 @@
+12:48:19 **** Build of configuration Default for project monitor_barrera_firmware ****
+make -C ./ 
+make: *** No targets.  Stop.
+make: Entering directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+make: Leaving directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+12:48:22 **** Incremental Build of configuration Default for project monitor_barrera_firmware ****
+make -C ./ 
+make: Entering directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+make: *** No targets.  Stop.
+make: Leaving directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+12:49:28 **** Incremental Build of configuration Default for project monitor_barrera_firmware ****
+make -C ./ 
+make: Entering directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+make: *** No targets.  Stop.
+make: Leaving directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+12:49:31 **** Incremental Build of configuration Default for project monitor_barrera_firmware ****
+make -C ./ 
+make: *** No targets.  Stop.
+make: Entering directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+make: Leaving directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+12:50:19 **** Incremental Build of configuration Default for project monitor_barrera_firmware ****
+make -C /home/ivan/Documents/CIAA/firmware_v2/examples/blinky 
+make: Entering directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+make: *** No targets.  Stop.
+make: Leaving directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+12:55:20 **** Build of configuration Default for project monitor_barrera ****
+make -C /home/ivan/Documents/CIAA/maqueta_monitor_barrera/monitor_barrera 
+make: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/monitor_barrera'
+make: *** No targets.  Stop.
+make: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/monitor_barrera'
+13:06:20 **** Build of configuration Default for project firmware ****
+make all 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c ***
+*** compiling C file modules/lpc4337_m4/base/src/sysinit.c ***
+*** compiling C file modules/lpc4337_m4/base/src/cr_start_m0.c ***
+*** archiving static library base ***
+   text	   data	    bss	    dec	    hex	filename
+    680	      0	      0	    680	    2a8	cr_startup_lpc43xx.o (ex out/lpc4337_m4/libbase.a)
+     40	      0	      0	     40	     28	sysinit.o (ex out/lpc4337_m4/libbase.a)
+    320	      0	      0	    320	    140	cr_start_m0.o (ex out/lpc4337_m4/libbase.a)
+*** compiling C file modules/lpc4337_m4/board/src/mem_tests.c ***
+*** compiling C file modules/lpc4337_m4/board/src/board.c ***
+modules/lpc4337_m4/board/src/board.c:50:17: warning: 'lcd_cfg_val' defined but not used [-Wunused-variable]
+ static uint32_t lcd_cfg_val;
+                 ^
+*** compiling C file modules/lpc4337_m4/board/src/board_sysinit.c ***
+*** compiling C file modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c ***
+*** archiving static library board ***
+   text	   data	    bss	    dec	    hex	filename
+   1096	      0	      0	   1096	    448	mem_tests.o (ex out/lpc4337_m4/libboard.a)
+   1762	      0	      4	   1766	    6e6	board.o (ex out/lpc4337_m4/libboard.a)
+    476	      0	      0	    476	    1dc	board_sysinit.o (ex out/lpc4337_m4/libboard.a)
+    876	      0	     18	    894	    37e	lpc_phy_smsc87x0.o (ex out/lpc4337_m4/libboard.a)
+*** compiling C file modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/dac_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/aes_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/iap_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_PreSectorForReadWrite':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:59:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:59:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_CopyRamToFlash':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:74:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:74:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_EraseSector':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:89:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:89:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_BlankCheckSector':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:103:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:103:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+*** compiling C file modules/lpc4337_m4/chip/src/sct_18xx_43xx.c ***
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadPID':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:114:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:114:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadBootCode':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:125:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:125:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_Compare':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:139:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:139:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReinvokeISP':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:150:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:150:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadUID':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:161:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:161:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ErasePage':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:175:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:175:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_SetBootFlashBank':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:188:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:188:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+*** compiling C file modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/fpu_init.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/timer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/uart_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/uart_18xx_43xx.c: In function 'Chip_UART_Init':
+modules/lpc4337_m4/chip/src/uart_18xx_43xx.c:98:23: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+     volatile uint32_t tmp;
+                       ^
+*** compiling C file modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/enet_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ring_buffer.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/clock_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/spi_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/spi_18xx_43xx.c: In function 'Chip_SPI_Int_FlushData':
+modules/lpc4337_m4/chip/src/spi_18xx_43xx.c:138:20: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t tmp;
+                    ^
+*** compiling C file modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/adc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/chip_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/emc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/otp_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c ***
+*** archiving static library chip ***
+   text	   data	    bss	    dec	    hex	filename
+   2072	      0	      0	   2072	    818	ccan_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    600	      0	      0	    600	    258	sysinit_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    388	      0	     12	    400	    190	stopwatch_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    808	      0	      0	    808	    328	hsadc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2644	      4	    320	   2968	    b98	sdio_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    156	      0	      0	    156	     9c	dac_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    648	      0	     56	    704	    2c0	aes_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    360	      0	      0	    360	    168	eeprom_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    244	      0	      0	    244	     f4	ritimer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2696	    120	      8	   2824	    b08	gpdma_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    996	      0	      0	    996	    3e4	rtc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+      0	      0	      0	      0	      0	gpiogroup_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    420	      0	      0	    420	    1a4	evrt_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    144	      0	      0	    144	     90	atimer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1684	      0	      0	   1684	    694	i2cm_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    652	      0	      0	    652	    28c	iap_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    188	      0	      0	    188	     bc	sct_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    132	      0	      0	    132	     84	wwdt_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    116	      0	      0	    116	     74	fpu_init.o (ex out/lpc4337_m4/libchip.a)
+    432	      0	      0	    432	    1b0	sct_pwm_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    308	      0	      0	    308	    134	timer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   3164	      0	      4	   3168	    c60	sdmmc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1336	      0	      0	   1336	    538	i2s_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    924	      1	      0	    925	    39d	lcd_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2172	      0	      1	   2173	    87d	uart_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2320	      0	      0	   2320	    910	ssp_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    676	      0	      4	    680	    2a8	enet_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex out/lpc4337_m4/libchip.a)
+     56	      0	      0	     56	     38	pmc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   4254	      0	      8	   4262	   10a6	clock_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   3712	     56	     80	   3848	    f08	i2c_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1056	      0	      0	   1056	    420	spi_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    696	      0	      0	    696	    2b8	sdif_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1100	      0	      0	   1100	    44c	adc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    252	      0	      0	    252	     fc	chip_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1452	      0	      0	   1452	    5ac	emc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    620	      0	      0	    620	    26c	gpio_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    464	      0	     40	    504	    1f8	otp_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+      0	      0	      0	      0	      0	pinint_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+*** compiling C file examples/blinky/src/main.c ***
+*** linking project blinky ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/blinky.axf
+copy from `out/lpc4337_m4/blinky.axf' [elf32-littlearm] to `out/lpc4337_m4/blinky.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:07:00 **** Incremental Build of configuration Default for project firmware ****
+make all 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project blinky ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/blinky.axf
+copy from `out/lpc4337_m4/blinky.axf' [elf32-littlearm] to `out/lpc4337_m4/blinky.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:07:12 **** Incremental Build of configuration Default for project firmware ****
+make all 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project blinky ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/blinky.axf
+copy from `out/lpc4337_m4/blinky.axf' [elf32-littlearm] to `out/lpc4337_m4/blinky.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:07:49 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project blinky ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/blinky.axf
+copy from `out/lpc4337_m4/blinky.axf' [elf32-littlearm] to `out/lpc4337_m4/blinky.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:07:50 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project blinky ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/blinky.axf
+copy from `out/lpc4337_m4/blinky.axf' [elf32-littlearm] to `out/lpc4337_m4/blinky.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:54:23 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/main.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:10:07 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:10:44 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c ***
+*** compiling C file modules/lpc4337_m4/base/src/sysinit.c ***
+*** compiling C file modules/lpc4337_m4/base/src/cr_start_m0.c ***
+*** archiving static library base ***
+   text	   data	    bss	    dec	    hex	filename
+    680	      0	      0	    680	    2a8	cr_startup_lpc43xx.o (ex out/lpc4337_m4/libbase.a)
+     40	      0	      0	     40	     28	sysinit.o (ex out/lpc4337_m4/libbase.a)
+    320	      0	      0	    320	    140	cr_start_m0.o (ex out/lpc4337_m4/libbase.a)
+*** compiling C file modules/lpc4337_m4/board/src/mem_tests.c ***
+*** compiling C file modules/lpc4337_m4/board/src/board.c ***
+modules/lpc4337_m4/board/src/board.c:50:17: warning: 'lcd_cfg_val' defined but not used [-Wunused-variable]
+ static uint32_t lcd_cfg_val;
+                 ^
+*** compiling C file modules/lpc4337_m4/board/src/board_sysinit.c ***
+*** compiling C file modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c ***
+*** archiving static library board ***
+   text	   data	    bss	    dec	    hex	filename
+   1096	      0	      0	   1096	    448	mem_tests.o (ex out/lpc4337_m4/libboard.a)
+   1762	      0	      4	   1766	    6e6	board.o (ex out/lpc4337_m4/libboard.a)
+    476	      0	      0	    476	    1dc	board_sysinit.o (ex out/lpc4337_m4/libboard.a)
+    876	      0	     18	    894	    37e	lpc_phy_smsc87x0.o (ex out/lpc4337_m4/libboard.a)
+*** compiling C file modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/dac_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/aes_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/iap_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_PreSectorForReadWrite':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:59:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:59:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_CopyRamToFlash':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:74:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:74:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_EraseSector':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:89:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:89:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_BlankCheckSector':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:103:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:103:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadPID':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:114:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:114:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadBootCode':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:125:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:125:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_Compare':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:139:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:139:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReinvokeISP':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:150:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:150:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ReadUID':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:161:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:161:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_ErasePage':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:175:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:175:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c: In function 'Chip_IAP_SetBootFlashBank':
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:188:12: warning: passing argument 1 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+            ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:188:21: warning: passing argument 2 of 'iap_entry' from incompatible pointer type
+  iap_entry(command, result);
+                     ^
+In file included from modules/lpc4337_m4/chip/inc/chip_lpc43xx.h:210:0,
+                 from modules/lpc4337_m4/chip/inc/chip.h:39,
+                 from modules/lpc4337_m4/chip/src/iap_18xx_43xx.c:32:
+modules/lpc4337_m4/chip/inc/romapi_18xx_43xx.h:115:20: note: expected 'unsigned int *' but argument is of type 'uint32_t *'
+ static INLINE void iap_entry(unsigned int cmd_param[], unsigned int status_result[])
+                    ^
+*** compiling C file modules/lpc4337_m4/chip/src/sct_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/fpu_init.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/timer_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/uart_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/uart_18xx_43xx.c: In function 'Chip_UART_Init':
+modules/lpc4337_m4/chip/src/uart_18xx_43xx.c:98:23: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+     volatile uint32_t tmp;
+                       ^
+*** compiling C file modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/enet_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/ring_buffer.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/clock_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/spi_18xx_43xx.c ***
+modules/lpc4337_m4/chip/src/spi_18xx_43xx.c: In function 'Chip_SPI_Int_FlushData':
+modules/lpc4337_m4/chip/src/spi_18xx_43xx.c:138:20: warning: variable 'tmp' set but not used [-Wunused-but-set-variable]
+  volatile uint32_t tmp;
+                    ^
+*** compiling C file modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/adc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/chip_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/emc_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/otp_18xx_43xx.c ***
+*** compiling C file modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c ***
+*** archiving static library chip ***
+   text	   data	    bss	    dec	    hex	filename
+   2072	      0	      0	   2072	    818	ccan_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    600	      0	      0	    600	    258	sysinit_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    388	      0	     12	    400	    190	stopwatch_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    808	      0	      0	    808	    328	hsadc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2644	      4	    320	   2968	    b98	sdio_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    156	      0	      0	    156	     9c	dac_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    648	      0	     56	    704	    2c0	aes_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    360	      0	      0	    360	    168	eeprom_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    244	      0	      0	    244	     f4	ritimer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2696	    120	      8	   2824	    b08	gpdma_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    996	      0	      0	    996	    3e4	rtc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+      0	      0	      0	      0	      0	gpiogroup_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    420	      0	      0	    420	    1a4	evrt_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    144	      0	      0	    144	     90	atimer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1684	      0	      0	   1684	    694	i2cm_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    652	      0	      0	    652	    28c	iap_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    188	      0	      0	    188	     bc	sct_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    132	      0	      0	    132	     84	wwdt_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    116	      0	      0	    116	     74	fpu_init.o (ex out/lpc4337_m4/libchip.a)
+    432	      0	      0	    432	    1b0	sct_pwm_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    308	      0	      0	    308	    134	timer_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   3164	      0	      4	   3168	    c60	sdmmc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1336	      0	      0	   1336	    538	i2s_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    924	      1	      0	    925	    39d	lcd_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2172	      0	      1	   2173	    87d	uart_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   2320	      0	      0	   2320	    910	ssp_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    676	      0	      4	    680	    2a8	enet_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    980	      0	      0	    980	    3d4	ring_buffer.o (ex out/lpc4337_m4/libchip.a)
+     56	      0	      0	     56	     38	pmc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   4254	      0	      8	   4262	   10a6	clock_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   3712	     56	     80	   3848	    f08	i2c_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1056	      0	      0	   1056	    420	spi_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    696	      0	      0	    696	    2b8	sdif_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1100	      0	      0	   1100	    44c	adc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    252	      0	      0	    252	     fc	chip_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+   1452	      0	      0	   1452	    5ac	emc_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    620	      0	      0	    620	    26c	gpio_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+    464	      0	     40	    504	    1f8	otp_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+      0	      0	      0	      0	      0	pinint_18xx_43xx.o (ex out/lpc4337_m4/libchip.a)
+*** compiling C file projects/monitor_barrera/src/main.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:18:43 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:18:44 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:18:45 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:22:07 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:22:08 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:22:09 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:25:11 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:25:26 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:27:39 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:29:50 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:30:01 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:30:26 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:31:05 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:31:18 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:31:20 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:33:27 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:35:23 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/main.c ***
+projects/monitor_barrera/src/main.c:78:13: warning: 'pausems' defined but not used [-Wunused-function]
+ static void pausems(uint32_t t)
+             ^
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5868	      0	     16	   5884	   16fc	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:35:25 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5868	      0	     16	   5884	   16fc	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:35:27 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5868	      0	     16	   5884	   16fc	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:37:51 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/main.c ***
+projects/monitor_barrera/src/main.c:78:13: warning: 'pausems' defined but not used [-Wunused-function]
+ static void pausems(uint32_t t)
+             ^
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5692	      0	     16	   5708	   164c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:37:55 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5692	      0	     16	   5708	   164c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:38:34 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/main.c ***
+projects/monitor_barrera/src/main.c:78:13: warning: 'pausems' defined but not used [-Wunused-function]
+ static void pausems(uint32_t t)
+             ^
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5692	      0	     16	   5708	   164c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:38:47 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5692	      0	     16	   5708	   164c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:38:55 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5692	      0	     16	   5708	   164c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:39:28 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/main.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+14:39:31 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   5916	      0	     16	   5932	   172c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+15:13:43 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file modules/lpc4337_m4/freertos/src/heap_4.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/queue.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/croutine.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/list.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/port.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/event_groups.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/redlib_memfix.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/tasks.c ***
+*** compiling C file modules/lpc4337_m4/freertos/src/timers.c ***
+*** archiving static library freertos ***
+   text	   data	    bss	    dec	    hex	filename
+    852	  16384	     24	  17260	   436c	heap_4.o (ex out/lpc4337_m4/libfreertos.a)
+     92	      0	      0	     92	     5c	FreeRTOSCommonHooks.o (ex out/lpc4337_m4/libfreertos.a)
+   2604	      0	      0	   2604	    a2c	queue.o (ex out/lpc4337_m4/libfreertos.a)
+   1044	      0	    128	   1172	    494	croutine.o (ex out/lpc4337_m4/libfreertos.a)
+    356	      0	      0	    356	    164	list.o (ex out/lpc4337_m4/libfreertos.a)
+    592	      4	      0	    596	    254	port.o (ex out/lpc4337_m4/libfreertos.a)
+   1068	      0	      0	   1068	    42c	event_groups.o (ex out/lpc4337_m4/libfreertos.a)
+      0	      0	      0	      0	      0	redlib_memfix.o (ex out/lpc4337_m4/libfreertos.a)
+   5213	      4	    252	   5469	   155d	tasks.o (ex out/lpc4337_m4/libfreertos.a)
+      0	      0	      0	      0	      0	timers.o (ex out/lpc4337_m4/libfreertos.a)
+*** compiling C file projects/monitor_barrera/src/newlib_stubs.c ***
+*** compiling C file projects/monitor_barrera/src/main.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   9540	  16392	    288	  26220	   666c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+15:13:52 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   9540	  16392	    288	  26220	   666c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+15:17:34 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   9540	  16392	    288	  26220	   666c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+15:17:37 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+   9540	  16392	    288	  26220	   666c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+19:26:56 **** Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c ***
+modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c: In function 'display7SegmentTestPins':
+modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c:172:7: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+       delay(1000);
+       ^
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c ***
+modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c: In function 'keypadRead':
+modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c:116:10: warning: implicit declaration of function 'delay' [-Wimplicit-function-declaration]
+          delay( 50 ); // Debounce 50 ms
+          ^
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_print.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_board.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c ***
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c ***
+*** archiving static library sapi_rtos ***
+   text	   data	    bss	    dec	    hex	filename
+     24	      0	      0	     24	     18	sapi_datatypes.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    252	     26	      0	    278	    116	sapi_7_segment_display.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    676	      0	      0	    676	    2a4	sapi_uart.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    456	      0	      0	    456	    1c8	sapi_keypad.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    160	      0	      0	    160	     a0	sapi_dac.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    256	      0	      1	    257	    101	sapi_rtc.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    496	      0	      0	    496	    1f0	sapi_i2c.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    592	      0	      0	    592	    250	sapi_hmc5883l.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    452	      0	      0	    452	    1c4	sapi_circularBuffer.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    295	      0	      0	    295	    127	sapi_print.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    232	      0	      0	    232	     e8	sapi_board.o (ex out/lpc4337_m4/libsapi_rtos.a)
+     16	      0	      0	     16	     10	sapi_sleep.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    268	      0	      0	    268	    10c	sapi_adc.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    761	      0	     17	    778	    30a	sapi_convert.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    416	      0	      0	    416	    1a0	sapi_spi.o (ex out/lpc4337_m4/libsapi_rtos.a)
+   1314	      0	      0	   1314	    522	sapi_gpio.o (ex out/lpc4337_m4/libsapi_rtos.a)
+*** compiling C file projects/monitor_barrera/src/freeRTOS_01_blinky.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12268	  16392	    292	  28952	   7118	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+19:27:14 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12268	  16392	    292	  28952	   7118	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+19:29:34 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12268	  16392	    292	  28952	   7118	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:20:35 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/freeRTOS_01_blinky.c ***
+In file included from projects/monitor_barrera/src/freeRTOS_01_blinky.c:39:0:
+projects/monitor_barrera/src/freeRTOS_01_blinky.c: In function 'main':
+projects/monitor_barrera/src/freeRTOS_01_blinky.c:88:13: error: 'barrierControlTask' undeclared (first use in this function)
+             barrierControlTask,                     // Funcion de la tarea a ejecutar
+             ^
+modules/lpc4337_m4/freertos/inc/task.h:330:120: note: in definition of macro 'xTaskCreate'
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+Makefile:105: recipe for target 'freeRTOS_01_blinky.o' failed
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+                                                                                                                        ^
+Makefile:86: recipe for target 'all' failed
+projects/monitor_barrera/src/freeRTOS_01_blinky.c:88:13: note: each undeclared identifier is reported only once for each function it appears in
+             barrierControlTask,                     // Funcion de la tarea a ejecutar
+             ^
+modules/lpc4337_m4/freertos/inc/task.h:330:120: note: in definition of macro 'xTaskCreate'
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                        ^
+make[1]: *** [freeRTOS_01_blinky.o] Error 1
+make: *** [all] Error 2
+20:20:37 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/freeRTOS_01_blinky.c ***
+In file included from projects/monitor_barrera/src/freeRTOS_01_blinky.c:39:0:
+projects/monitor_barrera/src/freeRTOS_01_blinky.c: In function 'main':
+projects/monitor_barrera/src/freeRTOS_01_blinky.c:88:13: error: 'barrierControlTask' undeclared (first use in this function)
+             barrierControlTask,                     // Funcion de la tarea a ejecutar
+             ^
+modules/lpc4337_m4/freertos/inc/task.h:330:120: note: in definition of macro 'xTaskCreate'
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                        ^
+projects/monitor_barrera/src/freeRTOS_01_blinky.c:88:13: note: each undeclared identifier is reported only once for each function it appears in
+             barrierControlTask,                     // Funcion de la tarea a ejecutar
+             ^
+Makefile:105: recipe for target 'freeRTOS_01_blinky.o' failed
+modules/lpc4337_m4/freertos/inc/task.h:330:120: note: in definition of macro 'xTaskCreate'
+ #define xTaskCreate( pvTaskCode, pcName, usStackDepth, pvParameters, uxPriority, pxCreatedTask ) xTaskGenericCreate( ( pvTaskCode ), ( pcName ), ( usStackDepth ), ( pvParameters ), ( uxPriority ), ( pxCreatedTask ), ( NULL ), ( NULL ) )
+                                                                                                                        ^
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+make[1]: *** [freeRTOS_01_blinky.o] Error 1
+make: *** [all] Error 2
+Makefile:86: recipe for target 'all' failed
+20:21:08 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12472	  16392	    292	  29156	   71e4	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:21:11 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12472	  16392	    292	  29156	   71e4	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:21:36 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12472	  16392	    292	  29156	   71e4	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:25:10 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/freeRTOS_01_blinky.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12512	  16392	    292	  29196	   720c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:25:13 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12512	  16392	    292	  29196	   720c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:27:12 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/freeRTOS_01_blinky.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12512	  16392	    292	  29196	   720c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:27:16 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12512	  16392	    292	  29196	   720c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:27:22 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12512	  16392	    292	  29196	   720c	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:38:10 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/freeRTOS_01_blinky.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12712	  16392	    292	  29396	   72d4	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:38:39 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/freeRTOS_01_blinky.c ***
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12708	  16392	    292	  29392	   72d0	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+20:38:43 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12708	  16392	    292	  29392	   72d0	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+

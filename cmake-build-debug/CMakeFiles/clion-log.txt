@@ -1,0 +1,4 @@
+/home/ivan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ivan/Documents/CIAA/maqueta_monitor_barrera
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug

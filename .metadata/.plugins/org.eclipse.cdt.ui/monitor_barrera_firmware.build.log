@@ -1,0 +1,8 @@
+12:50:19 **** Incremental Build of configuration Default for project monitor_barrera_firmware ****
+make -C /home/ivan/Documents/CIAA/firmware_v2/examples/blinky 
+make: Entering directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+make: *** No targets.  Stop.
+make: Leaving directory '/home/ivan/Documents/CIAA/firmware_v2/examples/blinky'
+
+12:50:19 Build Finished (took 62ms)
+

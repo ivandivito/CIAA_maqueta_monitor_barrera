@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;firmware/projects/blinky&apos; to &apos;monitor_barrera&apos;" description="Rename resource &apos;blinky&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="projects/blinky" name="monitor_barrera" stamp="1504454561596" updateReferences="true"/>
+</session>

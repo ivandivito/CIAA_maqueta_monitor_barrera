@@ -1,0 +1,17 @@
+20:38:43 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  12708	  16392	    292	  29392	   72d0	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+
+20:38:43 Build Finished (took 124ms)
+

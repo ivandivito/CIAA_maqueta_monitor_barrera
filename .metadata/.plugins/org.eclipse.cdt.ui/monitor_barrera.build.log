@@ -1,0 +1,8 @@
+12:55:20 **** Build of configuration Default for project monitor_barrera ****
+make -C /home/ivan/Documents/CIAA/maqueta_monitor_barrera/monitor_barrera 
+make: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/monitor_barrera'
+make: *** No targets.  Stop.
+make: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/monitor_barrera'
+
+12:55:20 Build Finished (took 66ms)
+
