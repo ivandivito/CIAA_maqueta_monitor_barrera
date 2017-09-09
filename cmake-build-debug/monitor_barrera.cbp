@@ -747,10 +747,28 @@
 		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/inc/FreeRTOSConfig.h">
 			<Option target="monitor_barrera"/>
 		</Unit>
+		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/inc/PcManager.h">
+			<Option target="monitor_barrera"/>
+		</Unit>
+		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/inc/Print.h">
+			<Option target="monitor_barrera"/>
+		</Unit>
+		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/inc/Uart.h">
+			<Option target="monitor_barrera"/>
+		</Unit>
 		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/inc/newlib_stubs.h">
 			<Option target="monitor_barrera"/>
 		</Unit>
-		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c">
+		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Main.c">
+			<Option target="monitor_barrera"/>
+		</Unit>
+		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/PcManager.c">
+			<Option target="monitor_barrera"/>
+		</Unit>
+		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Print.c">
+			<Option target="monitor_barrera"/>
+		</Unit>
+		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Uart.c">
 			<Option target="monitor_barrera"/>
 		</Unit>
 		<Unit filename="/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/newlib_stubs.c">

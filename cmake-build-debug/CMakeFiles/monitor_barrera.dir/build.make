@@ -57,33 +57,105 @@ include CMakeFiles/monitor_barrera.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/monitor_barrera.dir/flags.make
 
-CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o: CMakeFiles/monitor_barrera.dir/flags.make
-CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o: ../firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o: CMakeFiles/monitor_barrera.dir/flags.make
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o: ../firmware/projects/monitor_barrera/src/Main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Main.c
 
-CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c > CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.i
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Main.c > CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.i
 
-CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.s
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Main.c -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.s
 
-CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.requires:
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.requires:
 
-.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.requires
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.requires
 
-CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.provides: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.requires
-	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.provides.build
-.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.provides
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.provides: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.requires
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.provides.build
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.provides
 
-CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.provides.build: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.provides.build: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o
+
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o: CMakeFiles/monitor_barrera.dir/flags.make
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o: ../firmware/projects/monitor_barrera/src/PcManager.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/PcManager.c
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/PcManager.c > CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.i
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/PcManager.c -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.s
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.requires:
+
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.requires
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.provides: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.requires
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.provides.build
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.provides
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.provides.build: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o
+
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o: CMakeFiles/monitor_barrera.dir/flags.make
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o: ../firmware/projects/monitor_barrera/src/Print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Print.c
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Print.c > CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.i
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Print.c -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.s
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.requires:
+
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.requires
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.provides: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.requires
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.provides.build
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.provides
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.provides.build: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o
+
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o: CMakeFiles/monitor_barrera.dir/flags.make
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o: ../firmware/projects/monitor_barrera/src/Uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Uart.c
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Uart.c > CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.i
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/Uart.c -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.s
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.requires:
+
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.requires
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.provides: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.requires
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.provides.build
+.PHONY : CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.provides
+
+CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.provides.build: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o
 
 
 CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o: ../firmware/projects/monitor_barrera/src/newlib_stubs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/projects/monitor_barrera/src/newlib_stubs.c
 
 CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.i: cmake_force
@@ -107,7 +179,7 @@ CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stub
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o: ../firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.i: cmake_force
@@ -131,7 +203,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOS
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o: ../firmware/modules/lpc4337_m4/freertos/src/croutine.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/croutine.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.i: cmake_force
@@ -155,7 +227,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/event_groups.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/event_groups.c.o: ../firmware/modules/lpc4337_m4/freertos/src/event_groups.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/event_groups.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/event_groups.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/event_groups.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/event_groups.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/event_groups.c.i: cmake_force
@@ -179,7 +251,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/event_gr
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/heap_4.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/heap_4.c.o: ../firmware/modules/lpc4337_m4/freertos/src/heap_4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/heap_4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/heap_4.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/heap_4.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/heap_4.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/heap_4.c.i: cmake_force
@@ -203,7 +275,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/heap_4.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/list.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/list.c.o: ../firmware/modules/lpc4337_m4/freertos/src/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/list.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/list.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/list.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/list.c.i: cmake_force
@@ -227,7 +299,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/list.c.o
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/port.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/port.c.o: ../firmware/modules/lpc4337_m4/freertos/src/port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/port.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/port.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/port.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/port.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/port.c.i: cmake_force
@@ -251,7 +323,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/port.c.o
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/queue.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/queue.c.o: ../firmware/modules/lpc4337_m4/freertos/src/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/queue.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/queue.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/queue.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/queue.c.i: cmake_force
@@ -275,7 +347,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/queue.c.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c.o: ../firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/redlib_memfix.c.i: cmake_force
@@ -299,7 +371,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/redlib_m
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/tasks.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/tasks.c.o: ../firmware/modules/lpc4337_m4/freertos/src/tasks.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/tasks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/tasks.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/tasks.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/tasks.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/tasks.c.i: cmake_force
@@ -323,7 +395,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/tasks.c.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/timers.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/timers.c.o: ../firmware/modules/lpc4337_m4/freertos/src/timers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/timers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/timers.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/timers.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/freertos/src/timers.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/timers.c.i: cmake_force
@@ -347,7 +419,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/timers.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_start_m0.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_start_m0.c.o: ../firmware/modules/lpc4337_m4/base/src/cr_start_m0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_start_m0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_start_m0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_start_m0.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/base/src/cr_start_m0.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_start_m0.c.i: cmake_force
@@ -371,7 +443,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_start_m0.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c.o: ../firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_startup_lpc43xx.c.i: cmake_force
@@ -395,7 +467,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/cr_startup_l
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/sysinit.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/sysinit.c.o: ../firmware/modules/lpc4337_m4/base/src/sysinit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/sysinit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/sysinit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/sysinit.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/base/src/sysinit.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/sysinit.c.i: cmake_force
@@ -419,7 +491,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/base/src/sysinit.c.o.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board.c.o: ../firmware/modules/lpc4337_m4/board/src/board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/board/src/board.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board.c.i: cmake_force
@@ -443,7 +515,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board.c.o.p
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board_sysinit.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board_sysinit.c.o: ../firmware/modules/lpc4337_m4/board/src/board_sysinit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board_sysinit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board_sysinit.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board_sysinit.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/board/src/board_sysinit.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board_sysinit.c.i: cmake_force
@@ -467,7 +539,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/board_sysin
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c.o: ../firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/lpc_phy_smsc87x0.c.i: cmake_force
@@ -491,7 +563,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/lpc_phy_sms
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/mem_tests.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/mem_tests.c.o: ../firmware/modules/lpc4337_m4/board/src/mem_tests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/mem_tests.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/mem_tests.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/mem_tests.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/board/src/mem_tests.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/mem_tests.c.i: cmake_force
@@ -515,7 +587,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/board/src/mem_tests.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43xx.c.i: cmake_force
@@ -539,7 +611,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/adc_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43xx.c.i: cmake_force
@@ -563,7 +635,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/aes_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_43xx.c.i: cmake_force
@@ -587,7 +659,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/atimer_18xx_
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43xx.c.i: cmake_force
@@ -611,7 +683,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ccan_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43xx.c.i: cmake_force
@@ -635,7 +707,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/chip_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/clock_18xx_43xx.c.i: cmake_force
@@ -659,7 +731,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/clock_18xx_4
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43xx.c.i: cmake_force
@@ -683,7 +755,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/dac_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_43xx.c.i: cmake_force
@@ -707,7 +779,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/eeprom_18xx_
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43xx.c.i: cmake_force
@@ -731,7 +803,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/emc_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43xx.c.i: cmake_force
@@ -755,7 +827,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/enet_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43xx.c.i: cmake_force
@@ -779,7 +851,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/evrt_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/fpu_init.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/fpu_init.c.o: ../firmware/modules/lpc4337_m4/chip/src/fpu_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/fpu_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/fpu_init.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/fpu_init.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/fpu_init.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/fpu_init.c.i: cmake_force
@@ -803,7 +875,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/fpu_init.c.o
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_43xx.c.i: cmake_force
@@ -827,7 +899,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpdma_18xx_4
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43xx.c.i: cmake_force
@@ -851,7 +923,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpio_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18xx_43xx.c.i: cmake_force
@@ -875,7 +947,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/gpiogroup_18
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_43xx.c.i: cmake_force
@@ -899,7 +971,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/hsadc_18xx_4
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43xx.c.i: cmake_force
@@ -923,7 +995,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2c_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43xx.c.i: cmake_force
@@ -947,7 +1019,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2cm_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43xx.c.i: cmake_force
@@ -971,7 +1043,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/i2s_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43xx.c.i: cmake_force
@@ -995,7 +1067,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/iap_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43xx.c.i: cmake_force
@@ -1019,7 +1091,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/lcd_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43xx.c.i: cmake_force
@@ -1043,7 +1115,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/otp_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_43xx.c.i: cmake_force
@@ -1067,7 +1139,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pinint_18xx_
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43xx.c.i: cmake_force
@@ -1091,7 +1163,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/pmc_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ring_buffer.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ring_buffer.c.o: ../firmware/modules/lpc4337_m4/chip/src/ring_buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ring_buffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ring_buffer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ring_buffer.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/ring_buffer.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ring_buffer.c.i: cmake_force
@@ -1115,7 +1187,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ring_buffer.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx_43xx.c.i: cmake_force
@@ -1139,7 +1211,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ritimer_18xx
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43xx.c.i: cmake_force
@@ -1163,7 +1235,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/rtc_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43xx.c.i: cmake_force
@@ -1187,7 +1259,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx_43xx.c.i: cmake_force
@@ -1211,7 +1283,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sct_pwm_18xx
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43xx.c.i: cmake_force
@@ -1235,7 +1307,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdif_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43xx.c.i: cmake_force
@@ -1259,7 +1331,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdio_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_43xx.c.i: cmake_force
@@ -1283,7 +1355,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sdmmc_18xx_4
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43xx.c.i: cmake_force
@@ -1307,7 +1379,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/spi_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43xx.c.i: cmake_force
@@ -1331,7 +1403,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/ssp_18xx_43x
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/stopwatch_18xx_43xx.c.i: cmake_force
@@ -1355,7 +1427,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/stopwatch_18
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx_43xx.c.i: cmake_force
@@ -1379,7 +1451,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/sysinit_18xx
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/timer_18xx_43xx.c.i: cmake_force
@@ -1403,7 +1475,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/timer_18xx_4
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43xx.c.i: cmake_force
@@ -1427,7 +1499,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/uart_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c.o: ../firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43xx.c.i: cmake_force
@@ -1451,7 +1523,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/chip/src/wwdt_18xx_43
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_segment_display.c.i: cmake_force
@@ -1475,7 +1547,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_7_
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_adc.c.i: cmake_force
@@ -1499,7 +1571,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_ad
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_board.c.i: cmake_force
@@ -1523,7 +1595,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_bo
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_circularBuffer.c.i: cmake_force
@@ -1547,7 +1619,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_ci
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_convert.c.i: cmake_force
@@ -1571,7 +1643,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_co
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_dac.c.i: cmake_force
@@ -1595,7 +1667,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_da
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_datatypes.c.i: cmake_force
@@ -1619,7 +1691,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_da
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gpio.c.i: cmake_force
@@ -1643,7 +1715,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_gp
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hmc5883l.c.i: cmake_force
@@ -1667,7 +1739,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_hm
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2c.c.i: cmake_force
@@ -1691,7 +1763,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_i2
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_keypad.c.i: cmake_force
@@ -1715,7 +1787,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_ke
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_print.c.i: cmake_force
@@ -1739,7 +1811,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_pr
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rtc.c.i: cmake_force
@@ -1763,7 +1835,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_rt
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sleep.c.i: cmake_force
@@ -1787,7 +1859,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sl
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_spi.c.i: cmake_force
@@ -1811,7 +1883,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_sp
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.o: ../firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.i: cmake_force
@@ -1835,7 +1907,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_ua
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c.o: ../firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c.i: cmake_force
@@ -1859,7 +1931,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAIN.c.o.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c.o: ../firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c.i: cmake_force
@@ -1883,7 +1955,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaAOUT.c.o
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c.o: ../firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c.i: cmake_force
@@ -1907,7 +1979,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaI2C.c.o.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c.o: ../firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c.i: cmake_force
@@ -1931,7 +2003,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaIO.c.o.p
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c.o: ../firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c.i: cmake_force
@@ -1955,7 +2027,7 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaNVM.c.o.
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.o: CMakeFiles/monitor_barrera.dir/flags.make
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.o: ../firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.o   -c /home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c
 
 CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.i: cmake_force
@@ -1979,7 +2051,10 @@ CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.o
 
 # Object files for target monitor_barrera
 monitor_barrera_OBJECTS = \
-"CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o" \
+"CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o" \
+"CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o" \
+"CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o" \
+"CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o" \
 "CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o" \
 "CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o" \
 "CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o" \
@@ -2063,7 +2138,10 @@ monitor_barrera_OBJECTS = \
 # External object files for target monitor_barrera
 monitor_barrera_EXTERNAL_OBJECTS =
 
-monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o
+monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o
+monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o
+monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o
+monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o
 monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o
 monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o
 monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o
@@ -2145,7 +2223,7 @@ monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa
 monitor_barrera: CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/ciaa/src/ciaaUART.c.o
 monitor_barrera: CMakeFiles/monitor_barrera.dir/build.make
 monitor_barrera: CMakeFiles/monitor_barrera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking C executable monitor_barrera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ivan/Documents/CIAA/maqueta_monitor_barrera/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Linking C executable monitor_barrera"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/monitor_barrera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -2153,7 +2231,10 @@ CMakeFiles/monitor_barrera.dir/build: monitor_barrera
 
 .PHONY : CMakeFiles/monitor_barrera.dir/build
 
-CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o.requires
+CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o.requires
+CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o.requires
+CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o.requires
+CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o.requires
 CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o.requires
 CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o.requires
 CMakeFiles/monitor_barrera.dir/requires: CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o.requires

@@ -52,11 +52,14 @@ extern "C" {
 
 /*==================[typedef]================================================*/
 
+typedef void (*uart_cb_t)(const uartMap_t uart, uint8_t data);
+
 /*==================[external data declaration]==============================*/
 
 /*==================[external functions declaration]=========================*/
 
 void uartConfig( uartMap_t uart, uint32_t baudRate );
+void uartConfigCb( uartMap_t uart, uart_cb_t callback );
 
 bool_t uartReadByte( uartMap_t uart, uint8_t* receivedByte );
 void uartWriteByte( uartMap_t uart, uint8_t byte );

@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o"
+  "CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o"
+  "CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o"
+  "CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o"
+  "CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o"
   "CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/newlib_stubs.c.o"
   "CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/FreeRTOSCommonHooks.c.o"
   "CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/freertos/src/croutine.c.o"

@@ -2255,32 +2255,113 @@ firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.s:
 	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.s
 .PHONY : firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c.s
 
-firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.o: firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o
+firmware/projects/monitor_barrera/src/Main.o: firmware/projects/monitor_barrera/src/Main.c.o
 
-.PHONY : firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.o
+.PHONY : firmware/projects/monitor_barrera/src/Main.o
 
 # target to build an object file
-firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o:
-	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o
-.PHONY : firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.o
+firmware/projects/monitor_barrera/src/Main.c.o:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.o
+.PHONY : firmware/projects/monitor_barrera/src/Main.c.o
 
-firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.i: firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.i
+firmware/projects/monitor_barrera/src/Main.i: firmware/projects/monitor_barrera/src/Main.c.i
 
-.PHONY : firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.i
+.PHONY : firmware/projects/monitor_barrera/src/Main.i
 
 # target to preprocess a source file
-firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.i:
-	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.i
-.PHONY : firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.i
+firmware/projects/monitor_barrera/src/Main.c.i:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.i
+.PHONY : firmware/projects/monitor_barrera/src/Main.c.i
 
-firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.s: firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.s
+firmware/projects/monitor_barrera/src/Main.s: firmware/projects/monitor_barrera/src/Main.c.s
 
-.PHONY : firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.s
+.PHONY : firmware/projects/monitor_barrera/src/Main.s
 
 # target to generate assembly for a file
-firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.s:
-	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.s
-.PHONY : firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.c.s
+firmware/projects/monitor_barrera/src/Main.c.s:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Main.c.s
+.PHONY : firmware/projects/monitor_barrera/src/Main.c.s
+
+firmware/projects/monitor_barrera/src/PcManager.o: firmware/projects/monitor_barrera/src/PcManager.c.o
+
+.PHONY : firmware/projects/monitor_barrera/src/PcManager.o
+
+# target to build an object file
+firmware/projects/monitor_barrera/src/PcManager.c.o:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.o
+.PHONY : firmware/projects/monitor_barrera/src/PcManager.c.o
+
+firmware/projects/monitor_barrera/src/PcManager.i: firmware/projects/monitor_barrera/src/PcManager.c.i
+
+.PHONY : firmware/projects/monitor_barrera/src/PcManager.i
+
+# target to preprocess a source file
+firmware/projects/monitor_barrera/src/PcManager.c.i:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.i
+.PHONY : firmware/projects/monitor_barrera/src/PcManager.c.i
+
+firmware/projects/monitor_barrera/src/PcManager.s: firmware/projects/monitor_barrera/src/PcManager.c.s
+
+.PHONY : firmware/projects/monitor_barrera/src/PcManager.s
+
+# target to generate assembly for a file
+firmware/projects/monitor_barrera/src/PcManager.c.s:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/PcManager.c.s
+.PHONY : firmware/projects/monitor_barrera/src/PcManager.c.s
+
+firmware/projects/monitor_barrera/src/Print.o: firmware/projects/monitor_barrera/src/Print.c.o
+
+.PHONY : firmware/projects/monitor_barrera/src/Print.o
+
+# target to build an object file
+firmware/projects/monitor_barrera/src/Print.c.o:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.o
+.PHONY : firmware/projects/monitor_barrera/src/Print.c.o
+
+firmware/projects/monitor_barrera/src/Print.i: firmware/projects/monitor_barrera/src/Print.c.i
+
+.PHONY : firmware/projects/monitor_barrera/src/Print.i
+
+# target to preprocess a source file
+firmware/projects/monitor_barrera/src/Print.c.i:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.i
+.PHONY : firmware/projects/monitor_barrera/src/Print.c.i
+
+firmware/projects/monitor_barrera/src/Print.s: firmware/projects/monitor_barrera/src/Print.c.s
+
+.PHONY : firmware/projects/monitor_barrera/src/Print.s
+
+# target to generate assembly for a file
+firmware/projects/monitor_barrera/src/Print.c.s:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Print.c.s
+.PHONY : firmware/projects/monitor_barrera/src/Print.c.s
+
+firmware/projects/monitor_barrera/src/Uart.o: firmware/projects/monitor_barrera/src/Uart.c.o
+
+.PHONY : firmware/projects/monitor_barrera/src/Uart.o
+
+# target to build an object file
+firmware/projects/monitor_barrera/src/Uart.c.o:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.o
+.PHONY : firmware/projects/monitor_barrera/src/Uart.c.o
+
+firmware/projects/monitor_barrera/src/Uart.i: firmware/projects/monitor_barrera/src/Uart.c.i
+
+.PHONY : firmware/projects/monitor_barrera/src/Uart.i
+
+# target to preprocess a source file
+firmware/projects/monitor_barrera/src/Uart.c.i:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.i
+.PHONY : firmware/projects/monitor_barrera/src/Uart.c.i
+
+firmware/projects/monitor_barrera/src/Uart.s: firmware/projects/monitor_barrera/src/Uart.c.s
+
+.PHONY : firmware/projects/monitor_barrera/src/Uart.s
+
+# target to generate assembly for a file
+firmware/projects/monitor_barrera/src/Uart.c.s:
+	$(MAKE) -f CMakeFiles/monitor_barrera.dir/build.make CMakeFiles/monitor_barrera.dir/firmware/projects/monitor_barrera/src/Uart.c.s
+.PHONY : firmware/projects/monitor_barrera/src/Uart.c.s
 
 firmware/projects/monitor_barrera/src/newlib_stubs.o: firmware/projects/monitor_barrera/src/newlib_stubs.c.o
 
@@ -2554,9 +2635,18 @@ help:
 	@echo "... firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.o"
 	@echo "... firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.i"
 	@echo "... firmware/modules/lpc4337_m4/sapi_rtos/src/sapi_uart.s"
-	@echo "... firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.o"
-	@echo "... firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.i"
-	@echo "... firmware/projects/monitor_barrera/src/freeRTOS_01_blinky.s"
+	@echo "... firmware/projects/monitor_barrera/src/Main.o"
+	@echo "... firmware/projects/monitor_barrera/src/Main.i"
+	@echo "... firmware/projects/monitor_barrera/src/Main.s"
+	@echo "... firmware/projects/monitor_barrera/src/PcManager.o"
+	@echo "... firmware/projects/monitor_barrera/src/PcManager.i"
+	@echo "... firmware/projects/monitor_barrera/src/PcManager.s"
+	@echo "... firmware/projects/monitor_barrera/src/Print.o"
+	@echo "... firmware/projects/monitor_barrera/src/Print.i"
+	@echo "... firmware/projects/monitor_barrera/src/Print.s"
+	@echo "... firmware/projects/monitor_barrera/src/Uart.o"
+	@echo "... firmware/projects/monitor_barrera/src/Uart.i"
+	@echo "... firmware/projects/monitor_barrera/src/Uart.s"
 	@echo "... firmware/projects/monitor_barrera/src/newlib_stubs.o"
 	@echo "... firmware/projects/monitor_barrera/src/newlib_stubs.i"
 	@echo "... firmware/projects/monitor_barrera/src/newlib_stubs.s"

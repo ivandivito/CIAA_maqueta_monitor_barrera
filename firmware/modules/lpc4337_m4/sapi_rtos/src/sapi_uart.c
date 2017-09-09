@@ -52,6 +52,9 @@
 
 /*==================[external data declaration]==============================*/
 
+volatile uart_cb_t uart_usb_cb = NULL;
+volatile uart_cb_t uart_232_cb = NULL;
+
 /*==================[external functions declaration]=========================*/
 
 void uartConfig( uartMap_t uart, uint32_t baudRate ){
@@ -65,12 +68,12 @@ void uartConfig( uartMap_t uart, uint32_t baudRate ){
       Chip_SCU_PinMux(7, 2, MD_PLN|MD_EZI|MD_ZI, FUNC6); /* P7_2,FUNC6: UART2_RXD */
 
       //Enable UART Rx Interrupt
-      //   Chip_UART_IntEnable(UART_USB_LPC,UART_IER_RBRINT );   //Receiver Buffer Register Interrupt
+         Chip_UART_IntEnable(UART_USB_LPC,UART_IER_RBRINT );   //Receiver Buffer Register Interrupt
       // Enable UART line status interrupt
-      //   Chip_UART_IntEnable(UART_USB_LPC,UART_IER_RLSINT ); //LPC43xx User manual page 1118
-      //   NVIC_SetPriority(USART2_IRQn, 6);
+         Chip_UART_IntEnable(UART_USB_LPC,UART_IER_RLSINT ); //LPC43xx User manual page 1118
+         NVIC_SetPriority(USART2_IRQn, 6);
       // Enable Interrupt for UART channel
-      //   NVIC_EnableIRQ(USART2_IRQn);
+         NVIC_EnableIRQ(USART2_IRQn);
    break;
    case UART_232:
       Chip_UART_Init(UART_232_LPC);
@@ -79,6 +82,14 @@ void uartConfig( uartMap_t uart, uint32_t baudRate ){
       Chip_UART_TXEnable(UART_232_LPC); /* Enable UART Transmission */
       Chip_SCU_PinMux(2, 3, MD_PDN, FUNC2);              /* P2_3,FUNC2: UART3_TXD */
       Chip_SCU_PinMux(2, 4, MD_PLN|MD_EZI|MD_ZI, FUNC2); /* P2_4,FUNC2: UART3_RXD */
+
+     //Enable UART Rx Interrupt
+     Chip_UART_IntEnable(UART_232_LPC,UART_IER_RBRINT );   //Receiver Buffer Register Interrupt
+     // Enable UART line status interrupt
+     Chip_UART_IntEnable(UART_232_LPC,UART_IER_RLSINT ); //LPC43xx User manual page 1118
+     NVIC_SetPriority(USART3_IRQn, 6);
+     // Enable Interrupt for UART channel
+     NVIC_EnableIRQ(USART3_IRQn);
    break;
    case UART_485:
 
@@ -86,6 +97,19 @@ void uartConfig( uartMap_t uart, uint32_t baudRate ){
    }
 }
 
+void uartConfigCb( uartMap_t uart, uart_cb_t callback ){
+   switch(uart){
+      case UART_USB:
+         uart_usb_cb = callback;
+           break;
+      case UART_232:
+         uart_232_cb = callback;
+           break;
+      case UART_485:
+
+         break;
+   }
+}
 
 bool_t uartReadByte( uartMap_t uart, uint8_t* receivedByte ){
 
@@ -139,5 +163,37 @@ void uartWriteString( uartMap_t uart, char* str ){
 }
 
 /*==================[ISR external functions definition]======================*/
+
+__attribute__ ((section(".after_vectors")))
+
+/* 0x28 0x000000A0 - Handler for ISR UART0 (IRQ 24) */
+void UART0_IRQHandler(void){
+   //debug_uart("UART0_IRQHandler");
+}
+
+/* 0x2a 0x000000A8 - Handler for ISR UART2 (IRQ 26) */
+void UART2_IRQHandler(void){
+   //debug_uart("UART2_IRQHandler");
+   if (Chip_UART_ReadLineStatus(UART_USB_LPC) & UART_LSR_RDR) {
+      uint8_t receivedByte = Chip_UART_ReadByte(UART_USB_LPC);
+      //debug_uart("%c",receivedByte);
+      if(uart_usb_cb != NULL){
+         uart_usb_cb(UART_USB,receivedByte);
+      }
+   }
+}
+
+/* 0x2b 0x000000AC - Handler for ISR UART3 (IRQ 27) */
+void UART3_IRQHandler(void){
+   //debug_uart("UART3_IRQHandler");
+
+   if (Chip_UART_ReadLineStatus(UART_232_LPC) & UART_LSR_RDR) {
+      uint8_t receivedByte = Chip_UART_ReadByte(UART_232_LPC);
+      //debug_uart("%c",receivedByte);
+      if(uart_232_cb != NULL){
+         uart_232_cb(UART_232,receivedByte);
+      }
+   }
+}
 
 /*==================[end of file]============================================*/

@@ -1529,3 +1529,297 @@ make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/fi
 
 Build complete.
 
+12:37:35 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  13188	  16392	    300	  29880	   74b8	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+12:37:38 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  13188	  16392	    300	  29880	   74b8	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+12:39:16 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/Main.c ***
+In file included from modules/lpc4337_m4/sapi_rtos/inc/sapi.h:60:0,
+                 from projects/monitor_barrera/src/Main.c:41:
+modules/lpc4337_m4/sapi_rtos/inc/sapi_debugPrint.h:57:67: warning: 'debugPrint' defined but not used [-Wunused-variable]
+    #define DEBUG_PRINT_ENABLE                      static print_t debugPrint
+                                                                   ^
+projects/monitor_barrera/src/Main.c:55:1: note: in expansion of macro 'DEBUG_PRINT_ENABLE'
+ DEBUG_PRINT_ENABLE;
+ ^
+*** linking project monitor_barrera ***
+out/lpc4337_m4/obj/Main.o: In function `main':
+/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware//projects/monitor_barrera/src/Main.c:75: undefined reference to `initUart'
+collect2: error: ld returned 1 exit status
+Makefile:117: recipe for target 'monitor_barrera' failed
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+make[1]: *** [monitor_barrera] Error 1
+Makefile:86: recipe for target 'all' failed
+make: *** [all] Error 2
+12:39:19 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+out/lpc4337_m4/obj/Main.o: In function `main':
+/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware//projects/monitor_barrera/src/Main.c:75: undefined reference to `initUart'
+collect2: error: ld returned 1 exit status
+make[1]: *** [monitor_barrera] Error 1
+make: *** [all] Error 2
+Makefile:117: recipe for target 'monitor_barrera' failed
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+Makefile:86: recipe for target 'all' failed
+12:40:42 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  14620	  16392	    316	  31328	   7a60	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+12:40:45 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  14620	  16392	    316	  31328	   7a60	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+12:41:14 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  14620	  16392	    316	  31328	   7a60	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+12:41:21 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  14620	  16392	    316	  31328	   7a60	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:21:26 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file modules/lpc4337_m4/sapi_rtos/src/sapi_uart.c ***
+*** archiving static library sapi_rtos ***
+   text	   data	    bss	    dec	    hex	filename
+     24	      0	      0	     24	     18	sapi_datatypes.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    252	     26	      0	    278	    116	sapi_7_segment_display.o (ex out/lpc4337_m4/libsapi_rtos.a)
+   1112	      0	      8	   1120	    460	sapi_uart.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    456	      0	      0	    456	    1c8	sapi_keypad.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    160	      0	      0	    160	     a0	sapi_dac.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    256	      0	      1	    257	    101	sapi_rtc.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    496	      0	      0	    496	    1f0	sapi_i2c.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    592	      0	      0	    592	    250	sapi_hmc5883l.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    452	      0	      0	    452	    1c4	sapi_circularBuffer.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    295	      0	      0	    295	    127	sapi_print.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    232	      0	      0	    232	     e8	sapi_board.o (ex out/lpc4337_m4/libsapi_rtos.a)
+     16	      0	      0	     16	     10	sapi_sleep.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    268	      0	      0	    268	    10c	sapi_adc.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    761	      0	     17	    778	    30a	sapi_convert.o (ex out/lpc4337_m4/libsapi_rtos.a)
+    416	      0	      0	    416	    1a0	sapi_spi.o (ex out/lpc4337_m4/libsapi_rtos.a)
+   1314	      0	      0	   1314	    522	sapi_gpio.o (ex out/lpc4337_m4/libsapi_rtos.a)
+*** compiling C file projects/monitor_barrera/src/Print.c ***
+*** compiling C file projects/monitor_barrera/src/Main.c ***
+In file included from modules/lpc4337_m4/sapi_rtos/inc/sapi.h:60:0,
+                 from projects/monitor_barrera/src/Main.c:36:
+modules/lpc4337_m4/sapi_rtos/inc/sapi_debugPrint.h:57:67: warning: 'debugPrint' defined but not used [-Wunused-variable]
+    #define DEBUG_PRINT_ENABLE                      static print_t debugPrint
+                                                                   ^
+projects/monitor_barrera/src/Main.c:81:1: note: in expansion of macro 'DEBUG_PRINT_ENABLE'
+ DEBUG_PRINT_ENABLE;
+ ^
+*** compiling C file projects/monitor_barrera/src/PcManager.c ***
+projects/monitor_barrera/src/PcManager.c: In function 'pcManagerTask':
+projects/monitor_barrera/src/PcManager.c:49:9: warning: array subscript has type 'char' [-Wchar-subscripts]
+         if(!isdigit(cmd_buffer[1])){
+         ^
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18120	  16396	    352	  34868	   8834	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:21:32 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18120	  16396	    352	  34868	   8834	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:27:06 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/Main.c ***
+In file included from modules/lpc4337_m4/sapi_rtos/inc/sapi.h:60:0,
+                 from projects/monitor_barrera/src/Main.c:36:
+modules/lpc4337_m4/sapi_rtos/inc/sapi_debugPrint.h:57:67: warning: 'debugPrint' defined but not used [-Wunused-variable]
+    #define DEBUG_PRINT_ENABLE                      static print_t debugPrint
+                                                                   ^
+projects/monitor_barrera/src/Main.c:81:1: note: in expansion of macro 'DEBUG_PRINT_ENABLE'
+ DEBUG_PRINT_ENABLE;
+ ^
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18356	  16396	    352	  35104	   8920	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:27:10 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18356	  16396	    352	  35104	   8920	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:29:50 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/Main.c ***
+In file included from modules/lpc4337_m4/sapi_rtos/inc/sapi.h:60:0,
+                 from projects/monitor_barrera/src/Main.c:36:
+modules/lpc4337_m4/sapi_rtos/inc/sapi_debugPrint.h:57:67: warning: 'debugPrint' defined but not used [-Wunused-variable]
+    #define DEBUG_PRINT_ENABLE                      static print_t debugPrint
+                                                                   ^
+projects/monitor_barrera/src/Main.c:82:1: note: in expansion of macro 'DEBUG_PRINT_ENABLE'
+ DEBUG_PRINT_ENABLE;
+ ^
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18376	  16396	    352	  35124	   8934	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:29:53 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18376	  16396	    352	  35124	   8934	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:31:07 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** compiling C file projects/monitor_barrera/src/Main.c ***
+In file included from modules/lpc4337_m4/sapi_rtos/inc/sapi.h:60:0,
+                 from projects/monitor_barrera/src/Main.c:36:
+modules/lpc4337_m4/sapi_rtos/inc/sapi_debugPrint.h:57:67: warning: 'debugPrint' defined but not used [-Wunused-variable]
+    #define DEBUG_PRINT_ENABLE                      static print_t debugPrint
+                                                                   ^
+projects/monitor_barrera/src/Main.c:82:1: note: in expansion of macro 'DEBUG_PRINT_ENABLE'
+ DEBUG_PRINT_ENABLE;
+ ^
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18388	  16396	    352	  35136	   8940	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
+13:31:10 **** Incremental Build of configuration Default for project firmware ****
+make 
+Build project...
+
+make[1]: Entering directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+*** linking project monitor_barrera ***
+   text	   data	    bss	    dec	    hex	filename
+  18388	  16396	    352	  35136	   8940	out/lpc4337_m4/monitor_barrera.axf
+copy from `out/lpc4337_m4/monitor_barrera.axf' [elf32-littlearm] to `out/lpc4337_m4/monitor_barrera.bin' [binary]
+*** post-build ***
+make[1]: Leaving directory '/home/ivan/Documents/CIAA/maqueta_monitor_barrera/firmware'
+
+Build complete.
+
