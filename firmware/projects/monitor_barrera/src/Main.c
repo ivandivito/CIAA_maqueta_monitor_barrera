@@ -31,7 +31,7 @@
  *
  */
 
-/*==================[inlcusiones]============================================*/
+/*==================[inclusiones]============================================*/
 
 #include "sapi.h"
 #include "board.h"
@@ -49,16 +49,6 @@
 #include "Print.h"
 #include "PcManager.h"
 
-/*
-// Includes de FreeRTOS
-#include "FreeRTOS.h"
-#include "FreeRTOSConfig.h"
-#include "task.h"
-
-#include "sapi.h"        // <= sAPI header
-#include "Uart.h"
-#include "PcManager.h"
-*/
 
 /*==================[definiciones y macros]==================================*/
 
@@ -74,6 +64,7 @@ typedef enum{noTrain, trainPassLeftDir, trainPassRightDir } barrierControlState_
 /*==================[definiciones de datos internos]=========================*/
 
 barrierControlState_t barrierControlState = noTrain;
+modelMode_t modelMode = normal;
 bool_t train_activated = false;
 uint8_t barrierControlLastSensorState = 0;
 
@@ -161,9 +152,28 @@ void barrierControlTask( void* taskParmPtr )
 {
    // ---------- CONFIGURACIONES ------------------------------
 
+
+
    // ---------- REPETIR POR SIEMPRE --------------------------
 	while(TRUE)
    {
+
+       //intento actualizar el modo
+       xQueueReceive(modelModeQueue, &modelMode, 0);
+
+       switch (modelMode){
+           case safeFail:
+               //si es falla segura bajo la barrera siempre
+               gpioWrite(DO0,ON);
+               break;
+           case unsafeFail:
+               //si es falla segura subo la barrera siempre
+               gpioWrite(DO0,OFF);
+               break;
+           case normal:
+               break;
+       }
+
       // Intercambia el estado del LEDB
        bool_t leftSensorLeftDirAct = !gpioRead(DI0);
        bool_t leftSensorRightDirAct = !gpioRead(DI1);
@@ -182,34 +192,47 @@ void barrierControlTask( void* taskParmPtr )
                case noTrain:
                    if(!leftSensorLeftDirAct && leftSensorRightDirAct && !rightSensorLeftDirAct && !rightSensorRightDirAct){
                        barrierControlState = trainPassRightDir;
-                       gpioWrite(DO0,ON);
                        pc_uart(PC_MSG_FORMAT_CHANGE_BARRIER_STATE,PC_MSG_BARRIER_STATE_RIGHT_TRAIN);
+                       if(modelMode == normal){
+                           gpioWrite(DO0,ON);
+                       }
+
                    } else if (!leftSensorLeftDirAct && !leftSensorRightDirAct && rightSensorLeftDirAct && !rightSensorRightDirAct){
                        barrierControlState = trainPassLeftDir;
-                       gpioWrite(DO0,ON);
                        pc_uart(PC_MSG_FORMAT_CHANGE_BARRIER_STATE,PC_MSG_BARRIER_STATE_LEFT_TRAIN);
+                       if(modelMode == normal){
+                           gpioWrite(DO0,ON);
+                       }
                    }
                    break;
                case trainPassRightDir:
                    if(!leftSensorLeftDirAct && !leftSensorRightDirAct && !rightSensorLeftDirAct && rightSensorRightDirAct){
                        barrierControlState = noTrain;
-                       gpioWrite(DO0,OFF);
                        pc_uart(PC_MSG_FORMAT_CHANGE_BARRIER_STATE,PC_MSG_BARRIER_STATE_NO_TRAIN);
+                       if(modelMode == normal){
+                           gpioWrite(DO0,OFF);
+                       }
                    } else if (leftSensorLeftDirAct && !leftSensorRightDirAct && !rightSensorLeftDirAct && !rightSensorRightDirAct){
                        barrierControlState = noTrain;
-                       gpioWrite(DO0,OFF);
                        pc_uart(PC_MSG_FORMAT_CHANGE_BARRIER_STATE,PC_MSG_BARRIER_STATE_NO_TRAIN);
+                       if(modelMode == normal){
+                           gpioWrite(DO0,OFF);
+                       }
                    }
                    break;
                case trainPassLeftDir:
                    if(leftSensorLeftDirAct && !leftSensorRightDirAct && !rightSensorLeftDirAct && !rightSensorRightDirAct){
                        barrierControlState = noTrain;
-                       gpioWrite(DO0,OFF);
                        pc_uart(PC_MSG_FORMAT_CHANGE_BARRIER_STATE,PC_MSG_BARRIER_STATE_NO_TRAIN);
+                       if(modelMode == normal){
+                           gpioWrite(DO0,OFF);
+                       }
                    } else if(!leftSensorLeftDirAct && !leftSensorRightDirAct && !rightSensorLeftDirAct && rightSensorRightDirAct){
                        barrierControlState = noTrain;
-                       gpioWrite(DO0,OFF);
                        pc_uart(PC_MSG_FORMAT_CHANGE_BARRIER_STATE,PC_MSG_BARRIER_STATE_NO_TRAIN);
+                       if(modelMode == normal){
+                           gpioWrite(DO0,OFF);
+                       }
                    }
                    break;
            }
@@ -218,7 +241,7 @@ void barrierControlTask( void* taskParmPtr )
        barrierControlLastSensorState = newSensorState;
 
 
-      // Envia la tarea al estado bloqueado durante 50ms
+      // Envia la tarea al estado bloqueado durante 100ms
 		vTaskDelay( 100 / portTICK_RATE_MS );
 	}
 }

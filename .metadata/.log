@@ -8244,3 +8244,37 @@ java.lang.ClassCastException: org.eclipse.linuxtools.internal.changelog.core.edi
 
 !ENTRY ilg.gnuarmeclipse.debug.gdbjtag.openocd 4 1 2017-09-09 13:31:10.739
 !MESSAGE /usr/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.openocd 4 1 2017-09-09 14:27:29.972
+!MESSAGE /usr/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -f etc/openocd/lpc4337.cfg -c echo "Started by GNU ARM Eclipse"
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.openocd 4 1 2017-09-09 14:27:30.011
+!MESSAGE /usr/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+!SESSION 2017-09-10 15:46:08.913 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-09-10 15:46:11.994
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-09-10 16:24:01.830
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-09-10 16:24:01.834
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.openocd 4 1 2017-09-10 16:24:02.254
+!MESSAGE /usr/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -f etc/openocd/lpc4337.cfg -c echo "Started by GNU ARM Eclipse"
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.openocd 4 1 2017-09-10 16:24:02.312
+!MESSAGE /usr/bin/arm-none-eabi-gdb --interpreter=mi2 --nx
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.openocd 4 1 2017-09-10 17:35:57.984
+!MESSAGE /usr/bin/openocd -c gdb_port 3333 -c telnet_port 4444 -f etc/openocd/lpc4337.cfg -c echo "Started by GNU ARM Eclipse"
+
+!ENTRY ilg.gnuarmeclipse.debug.gdbjtag.openocd 4 1 2017-09-10 17:35:58.026
+!MESSAGE /usr/bin/arm-none-eabi-gdb --interpreter=mi2 --nx

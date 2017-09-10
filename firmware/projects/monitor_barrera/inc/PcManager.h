@@ -10,22 +10,23 @@
 #include "sapi.h"
 #include "Uart.h"
 #include "Print.h"
+#include "queue.h"
 
 #define SERIAL_OPERATOR_CMD '$'
-#define SERIAL_OPERATOR_SPACE " "
-#define SERIAL_OPERATOR_START 'S'
-#define SERIAL_OPERATOR_END 'E'
-#define SERIAL_OPERATOR_READ 'R'
-#define SERIAL_OPERATOR_DELETE_STATE 'D'
+#define SERIAL_OPERATOR_ASSIGN '='
+#define SERIAL_OPERATOR_MODE 'M'
 
-#define PC_START_MSG "start ble scan\r\n"
-#define PC_END_MSG "end ble scan\r\n"
-#define PC_FORMAT_ERROR_MSG "format error\r\n"
-
-#define PC_READ_STATUS_CMD_OFFSET 2
-#define PC_ASSIGN_CALLBACK_CMD_OFFSET 1
+#define SERIAL_OPERATOR_MODE_NORMAL '0'
+#define SERIAL_OPERATOR_MODE_SAFE_FAIL '1'
+#define SERIAL_OPERATOR_MODE_UNSAFE_FAIL '2'
 
 #define CMD_BUFFER_SIZE 30
+
+#define QUEUE_SIZE 64
+
+typedef enum{normal, safeFail, unsafeFail } modelMode_t;
+
+xQueueHandle modelModeQueue;
 
 void pcManagerTask(void * a);
 void initPcManagerTask(uint32_t priority);
