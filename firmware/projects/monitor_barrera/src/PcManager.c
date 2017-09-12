@@ -11,6 +11,7 @@ int cmd_buffer_index = 0;
 void pcManagerTask(void * a){
 
     char cmdChar;
+    modelMode_t modelMode;
 
     while(TRUE) {
         //espero a recibir un comando entero
@@ -49,28 +50,35 @@ void pcManagerTask(void * a){
         if(!isdigit(cmd_buffer[1])){
 
             switch (cmd_buffer[1]){
-                //comando de inicio de operacion del modulo ble
-                case SERIAL_OPERATOR_START:
-                    pc_uart(PC_START_MSG);
-                    break;
-                    //comando de fin de operacion del modulo ble
-                case SERIAL_OPERATOR_END:
-                    pc_uart(PC_END_MSG);
-                    break;
-                    //comando de pedido de estado de un beacon
-                case SERIAL_OPERATOR_READ:
-                    pc_uart(PC_FORMAT_ERROR_MSG);
+                //comando de cambio de modo de la maqueta
+                case SERIAL_OPERATOR_MODE:
+                    if(cmd_length != 4 || cmd_buffer[2] != SERIAL_OPERATOR_ASSIGN)
+                        break;
 
-                    break;
-                case SERIAL_OPERATOR_DELETE_STATE:
+                    switch (cmd_buffer[3]){
+                        case SERIAL_OPERATOR_MODE_NORMAL:
+                            modelMode = normal;
+                            xQueueSendToBack(modelModeQueue,&modelMode,portTICK_PERIOD_MS);
+                            break;
+
+                        case SERIAL_OPERATOR_MODE_SAFE_FAIL:
+                            modelMode = safeFail;
+                            xQueueSendToBack(modelModeQueue,&modelMode,portTICK_PERIOD_MS);
+                            break;
+
+                        case SERIAL_OPERATOR_MODE_UNSAFE_FAIL:
+                            modelMode = unsafeFail;
+                            xQueueSendToBack(modelModeQueue,&modelMode,portTICK_PERIOD_MS);
+                            break;
+
+                        default:
+                            break;
+                    }
                     break;
                 default:
                     break;
             }
 
-        } else {
-
-            pc_uart(PC_FORMAT_ERROR_MSG);
         }
 
     }
@@ -78,6 +86,9 @@ void pcManagerTask(void * a){
 
 //inicio las tareas de procesamiento de comandos
 void initPcManagerTask(uint32_t priority){
+
+    modelModeQueue = xQueueCreate(QUEUE_SIZE, sizeof(modelMode_t));
+
     xTaskCreate(pcManagerTask, (const char *)"pcManagerTask", configMINIMAL_STACK_SIZE, 0, priority, 0);
 }
 

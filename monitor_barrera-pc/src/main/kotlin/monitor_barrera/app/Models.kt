@@ -87,8 +87,8 @@ enum class LightState(val id: Int, val tag: String) {
 }
 
 enum class RepairAction(val id: Int, val tag: String) {
-    SAFE_FAIL(0,"Revisar el mecanismo"),
-    UNSAFE_FAIL(1,"Revisar el mecanismo de manera urgente");
+    SAFE_FAIL(0,"Revisar la barrera"),
+    UNSAFE_FAIL(1,"Revisar la barrera de manera urgente");
     companion object {
         val propertyName = "Acción que debe realizarse:"
     }

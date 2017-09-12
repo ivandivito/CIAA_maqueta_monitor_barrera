@@ -3,6 +3,7 @@ package monitor_barrera.app
 import javafx.beans.property.SimpleStringProperty
 import javafx.collections.FXCollections
 import javafx.collections.ObservableList
+import javafx.event.EventHandler
 import javafx.geometry.Pos
 import javafx.scene.control.Button
 import javafx.scene.control.Label
@@ -12,6 +13,11 @@ import javafx.scene.paint.Color
 import javafx.scene.text.Font
 import rx.javafx.kt.actionEvents
 import tornadofx.*
+import java.awt.event.KeyAdapter
+import java.awt.event.KeyEvent
+import javafx.scene.input.KeyCode
+
+
 
 class MainView : View() {
     override val root = BorderPane()
@@ -21,13 +27,13 @@ class MainView : View() {
     private val armStateProp = BarrierMonitorParam(ArmState.propertyName, ArmState.HEALTHY.tag)
     private val lightStateProp = BarrierMonitorParam(LightState.propertyName, LightState.HEALTHY.tag)
     private val tableData : ObservableList<BarrierMonitorParam> = FXCollections.observableArrayList(
-            BarrierMonitorParam("Temperatura ambiente","26º7"),
-            BarrierMonitorParam("Temperatura del motor","45º3"),
-            BarrierMonitorParam("Corriente del motor","4 Amper"),
+            //BarrierMonitorParam("Temperatura ambiente","26º7"),
+            //BarrierMonitorParam("Temperatura del motor","45º3"),
+            //BarrierMonitorParam("Corriente del motor","4 Amper"),
             trackOccupationProp,
-            armPositionProp,
-            armStateProp,
-            lightStateProp
+            armPositionProp//,
+            //armStateProp,
+            //lightStateProp
     )
     private lateinit var normalOperationButton : Button
     private lateinit var safeErrorOperationButton : Button
@@ -146,6 +152,18 @@ class MainView : View() {
 
     init {
 
+        shortcut("Ctrl+Z") {
+            (SerialMsgType.CHANGE_BARRIER_STATE.prefix + BarrierState.TRAIN_FROM_LEFT.tag + "\r\n").forEach { Channels.usbInputChar.onNext(it) }
+        }
+
+        shortcut("Ctrl+X") {
+            (SerialMsgType.CHANGE_BARRIER_STATE.prefix + BarrierState.NO_TRAIN.tag + "\r\n").forEach { Channels.usbInputChar.onNext(it) }
+        }
+
+        shortcut("Ctrl+C") {
+            (SerialMsgType.CHANGE_BARRIER_STATE.prefix + BarrierState.TRAIN_FROM_RIGHT.tag + "\r\n").forEach { Channels.usbInputChar.onNext(it) }
+        }
+
         title = "Monitor de barrera"
 
         Channels.changeTrainModelMode.subscribe{
@@ -226,7 +244,7 @@ class MainView : View() {
                             actionEvents().map { TrainModelMode.NORMAL }.subscribe(Channels.changeTrainModelMode)
 
                             style {
-                                backgroundColor += Color.GREEN
+                                backgroundColor += Color.LIGHTGREEN
                                 borderWidth += box(1.px)
                                 borderColor += box(Color.BLACK)
                             }
@@ -268,7 +286,7 @@ class MainView : View() {
                         column("Valor", BarrierMonitorParam::valueProperty)
                         columnResizePolicy = SmartResize.POLICY
                         style {
-                            font = Font(20.0)
+                            font = Font(40.0)
                             prefRowCount = 7
                         }
                     }

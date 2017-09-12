@@ -14,24 +14,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1fc3ef-60b8-49f9-a35c-a82471725be3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/firmware.1504454375785.pdom" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/firmware.1504454375785.pdom" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.markers.snap" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.syncinfo.snap" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.syncinfo.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/49/40bd50e9c19000171115c172352bbee4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8e/20bdafb3c79000171115c172352bbee4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b4/b000b6acc79000171115c172352bbee4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c/80d9ba50c19000171115c172352bbee4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.indexes/86/63/e4/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.indexes/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.syncinfo.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/3.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/3.snap" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.indexes/86/b0/e4/history.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.indexes/86/b0/e4/history.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.markers" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/firmware/.markers" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/3.snap" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/3.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" afterPath="$PROJECT_DIR$/.idea/serialmonitor_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.log" afterPath="$PROJECT_DIR$/.metadata/.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.ui/firmware.build.log" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.ui/firmware.build.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/.log" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.cdt.core/.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/version.ini" afterPath="$PROJECT_DIR$/.metadata/version.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firmware/projects/monitor_barrera/inc/PcManager.h" afterPath="$PROJECT_DIR$/firmware/projects/monitor_barrera/inc/PcManager.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firmware/projects/monitor_barrera/src/Main.c" afterPath="$PROJECT_DIR$/firmware/projects/monitor_barrera/src/Main.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firmware/projects/monitor_barrera/src/PcManager.c" afterPath="$PROJECT_DIR$/firmware/projects/monitor_barrera/src/PcManager.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -48,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/firmware/projects/monitor_barrera/src/Main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="212">
-              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="e#1702#1719#0" expanded="true" />
               </folding>
@@ -225,28 +227,20 @@
             <path>
               <item name="monitor_barrera" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="maqueta_monitor_barrera" type="462c0819:PsiDirectoryNode" />
-              <item name="firmware" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor_barrera-pc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="monitor_barrera" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="maqueta_monitor_barrera" type="462c0819:PsiDirectoryNode" />
-              <item name="firmware" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monitor_barrera" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="maqueta_monitor_barrera" type="462c0819:PsiDirectoryNode" />
-              <item name="firmware" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor_barrera" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="monitor_barrera" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="maqueta_monitor_barrera" type="462c0819:PsiDirectoryNode" />
-              <item name="firmware" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor_barrera" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor_barrera-pc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="monitor_barrera" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="maqueta_monitor_barrera" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor_barrera-pc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +309,7 @@
       <workItem from="1504475814316" duration="7952000" />
       <workItem from="1504969723059" duration="6685000" />
       <workItem from="1505053430442" duration="606000" />
-      <workItem from="1505056688637" duration="7171000" />
+      <workItem from="1505056688637" duration="7337000" />
     </task>
     <task id="LOCAL-00001" summary="agrego informe de estado por usb">
       <created>1504974795518</created>
@@ -324,17 +318,23 @@
       <option name="project" value="LOCAL" />
       <updated>1504974795518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="agrego programa de pc">
+      <created>1505077138489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1505077138489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30026000" />
+    <option name="totallyTimeSpent" value="30192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31122166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31122166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -364,7 +364,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="agrego informe de estado por usb" />
-    <option name="LAST_COMMIT_MESSAGE" value="agrego informe de estado por usb" />
+    <MESSAGE value="agrego programa de pc" />
+    <option name="LAST_COMMIT_MESSAGE" value="agrego programa de pc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,7 +727,7 @@
     <entry file="file://$PROJECT_DIR$/firmware/projects/monitor_barrera/src/Main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
             <element signature="e#1702#1719#0" expanded="true" />
           </folding>
