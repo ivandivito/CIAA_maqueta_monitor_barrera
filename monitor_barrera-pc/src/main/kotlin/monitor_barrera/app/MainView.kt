@@ -16,7 +16,8 @@ import tornadofx.*
 import java.awt.event.KeyAdapter
 import java.awt.event.KeyEvent
 import javafx.scene.input.KeyCode
-
+import javafx.scene.text.FontWeight
+import javax.swing.GroupLayout
 
 
 class MainView : View() {
@@ -40,7 +41,7 @@ class MainView : View() {
     private lateinit var unsafeErrorOperationButton : Button
     private lateinit var actionLabel : Label
 
-    private var actionText = SimpleStringProperty()
+    private var actionText = SimpleStringProperty(RepairAction.NO_FAIL.tag)
     private var trainModelMode = TrainModelMode.NORMAL
     private var barrierState = BarrierState.NO_TRAIN
     private var trainState = TrainState.ACTIVATED
@@ -66,14 +67,14 @@ class MainView : View() {
 
                 normalOperationButton.style(true){
                     borderWidth += box(3.px)
-                    padding = box(1.px)
+                    padding = box(2.px)
                 }
                 safeErrorOperationButton.style(true){
-                    borderWidth += box(1.px)
+                    borderWidth += box(2.px)
                     padding = box(3.px)
                 }
                 unsafeErrorOperationButton.style(true){
-                    borderWidth += box(1.px)
+                    borderWidth += box(2.px)
                     padding = box(3.px)
                 }
             }
@@ -98,15 +99,15 @@ class MainView : View() {
                 }
 
                 normalOperationButton.style(true){
-                    borderWidth += box(1.px)
+                    borderWidth += box(2.px)
                     padding = box(3.px)
                 }
                 safeErrorOperationButton.style(true){
                     borderWidth += box(3.px)
-                    padding = box(1.px)
+                    padding = box(2.px)
                 }
                 unsafeErrorOperationButton.style(true){
-                    borderWidth += box(1.px)
+                    borderWidth += box(2.px)
                     padding = box(3.px)
                 }
             }
@@ -121,7 +122,7 @@ class MainView : View() {
 
                         actionText.value = RepairAction.UNSAFE_FAIL.tag
                         actionLabel.style(true){
-                            backgroundColor += Color.RED
+                            backgroundColor += Color.INDIANRED
                         }
                     }
                     BarrierState.TRAIN_FROM_RIGHT -> {
@@ -129,22 +130,22 @@ class MainView : View() {
 
                         actionText.value = RepairAction.UNSAFE_FAIL.tag
                         actionLabel.style(true){
-                            backgroundColor += Color.RED
+                            backgroundColor += Color.INDIANRED
                         }
                     }
                 }
 
                 normalOperationButton.style(true){
-                    borderWidth += box(1.px)
+                    borderWidth += box(2.px)
                     padding = box(3.px)
                 }
                 safeErrorOperationButton.style(true){
-                    borderWidth += box(1.px)
+                    borderWidth += box(2.px)
                     padding = box(3.px)
                 }
                 unsafeErrorOperationButton.style(true){
                     borderWidth += box(3.px)
-                    padding = box(1.px)
+                    padding = box(2.px)
                 }
             }
         }
@@ -172,9 +173,9 @@ class MainView : View() {
 
             runAsync {
             } ui {
-                actionText.value = ""
+                actionText.value = RepairAction.NO_FAIL.tag
                 actionLabel.style(true){
-                    backgroundColor += Color.GREY
+                    backgroundColor += Color.LIGHTGREEN
                 }
 
                 refreshVisualData()
@@ -240,13 +241,14 @@ class MainView : View() {
                             normalOperationButton = this
                             useMaxSize = true
                             hgrow = Priority.ALWAYS
-                            font = Font(28.0)
+                            font = Font(40.0)
                             actionEvents().map { TrainModelMode.NORMAL }.subscribe(Channels.changeTrainModelMode)
 
                             style {
                                 backgroundColor += Color.LIGHTGREEN
-                                borderWidth += box(1.px)
+                                borderWidth += box(2.px)
                                 borderColor += box(Color.BLACK)
+                                //fontWeight = FontWeight.BOLD
                             }
                         }
 
@@ -254,13 +256,14 @@ class MainView : View() {
                             safeErrorOperationButton = this
                             useMaxSize = true
                             hgrow = Priority.ALWAYS
-                            font = Font(28.0)
+                            font = Font(40.0)
                             actionEvents().map { TrainModelMode.SAFE_FAIL }.subscribe(Channels.changeTrainModelMode)
 
                             style {
                                 backgroundColor += Color.YELLOW
-                                borderWidth += box(1.px)
+                                borderWidth += box(2.px)
                                 borderColor += box(Color.BLACK)
+                                //fontWeight = FontWeight.BOLD
                             }
                         }
 
@@ -268,12 +271,13 @@ class MainView : View() {
                             unsafeErrorOperationButton = this
                             useMaxSize = true
                             hgrow = Priority.ALWAYS
-                            font = Font(28.0)
+                            font = Font(40.0)
                             actionEvents().map { TrainModelMode.UNSAFE_FAIL }.subscribe(Channels.changeTrainModelMode)
                             style {
-                                backgroundColor += Color.RED
-                                borderWidth += box(1.px)
+                                backgroundColor += Color.INDIANRED
+                                borderWidth += box(2.px)
                                 borderColor += box(Color.BLACK)
+                                //fontWeight = FontWeight.BOLD
                             }
                         }
                     }
@@ -282,9 +286,16 @@ class MainView : View() {
                         useMaxSize = true
                         vgrow = Priority.SOMETIMES
                         alignment = Pos.CENTER
-                        column("Parametro", BarrierMonitorParam::nameProperty)
-                        column("Valor", BarrierMonitorParam::valueProperty)
-                        columnResizePolicy = SmartResize.POLICY
+                        val paramColumn = column("Parametro", BarrierMonitorParam::nameProperty)
+                        val valueColumn = column("Estado", BarrierMonitorParam::valueProperty)
+
+                        paramColumn.style{
+                            alignment = Pos.CENTER
+                        }
+                        valueColumn.style{
+                            alignment = Pos.CENTER
+                        }
+
                         style {
                             font = Font(40.0)
                             prefRowCount = 7
@@ -297,15 +308,15 @@ class MainView : View() {
 
                         label(RepairAction.propertyName) {
                             style {
-                                font = Font(25.0)
+                                font = Font(40.0)
                             }
                         }
 
                         label("") {
                             actionLabel = this
                             style {
-                                font = Font(30.0)
-                                backgroundColor += Color.YELLOW
+                                font = Font(40.0)
+                                backgroundColor += Color.LIGHTGREEN
                             }
                             bind(actionText)
                         }
